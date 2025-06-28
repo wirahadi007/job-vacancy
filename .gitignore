@@ -1,0 +1,54 @@
+# Java build output
+/build/
+/target/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+
+# Dependency cache
+.gradle/
+/.gradle-cache/
+
+# JAR/WAR files
+*.jar
+*.war
+
+# Local environment
+.env
+application.properties
+application.yml
+*.local.*
+
+# Node (if using front-end)
+node_modules/
+
+# Test output
+/test-output/
+/out/
+
+# Spring specific
+spring.log
+
+# Maven (if switching build tool)
+.mvn/
+!**/src/main/resources/**/application.properties
+!**/src/main/resources/**/application.yml

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.cvmgmt.service.RankingServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-26T05:56:41.381Z" hostname="LAPTOP-ER5EFNJP" time="0.049">
-  <properties/>
-  <testcase name="testRankCandidates()" classname="com.example.cvmgmt.service.RankingServiceTest" time="0.043"/>
-  <testcase name="testCalculateScore()" classname="com.example.cvmgmt.service.RankingServiceTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

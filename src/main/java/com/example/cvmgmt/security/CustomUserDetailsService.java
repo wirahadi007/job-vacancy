@@ -2,6 +2,7 @@ package com.example.cvmgmt.security;
 
 import com.example.cvmgmt.model.User;
 import com.example.cvmgmt.repository.UserRepository;
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;
@@ -23,4 +24,8 @@ public class CustomUserDetailsService implements UserDetailsService {
                 .orElseThrow(() -> new UsernameNotFoundException("User not found"));
     }
 
+    @PostConstruct
+    public void init() {
+        System.out.println("CustomUserDetailsService loaded!");
+    }
 }
